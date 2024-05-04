@@ -7,7 +7,18 @@ Cont. from 8.7 [43.44.45.BGX-Singlet](https://github.com/Java-PJATK/43.44.45.BGX
 
 Quite often, we need a class whose objects represent just several pieces of data that are not supposed to be modified after the object’s creation — something like structures in pure C, but unmodifiable. This special type of class exists in Java and is called a **record**. 
 
-Such classes are sometimes called **data classes** or **data carrier**. They contain, created automatically, one constructor, private fields and methods for accessing them (so called _getters_ or _accessors_), and three methods: `toString`, `hashCode` and `equals`. 
+Such classes are sometimes called **data classes** or **data carrier**. 
+
+Records contain the following, automatically created elements:
+
+* one constructor
+
+* private fields and methods for accessing them (so called _getters_ or _accessors_), and
+
+* three methods: 
+`toString`,
+`hashCode` and 
+`equals`. 
 
 Objects of these classes can be treated as simply aggregates of data used by other classes; usually, they don’t contain any additional functionality. To protect immutability, they are implicitly `final`, i.e., they cannot be extended (no class can inherit from them). 7 (See Sec. 10, p. 87)
 
