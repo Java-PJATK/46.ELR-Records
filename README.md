@@ -5,7 +5,7 @@ Cont. from 8.7 [43.44.45.BGX-Singlet](https://github.com/Java-PJATK/43.44.45.BGX
 
 ## 8.8 Records 
 
-Quite often, we need a class whose objects represent just several pieces of data that are not supposed to be modified after the object’s creation — something like structures in pure C, but unmodifiable. This special type of class exists in Java and is called a record. 
+Quite often, we need a class whose objects represent just several pieces of data that are not supposed to be modified after the object’s creation — something like structures in pure C, but unmodifiable. This special type of class exists in Java and is called a **record**. 
 
 Such classes are sometimes called **data classes** or **data carrier**. They contain, created automatically, one constructor, private fields and methods for accessing them (so called _getters_ or _accessors_), and three methods: `toString`, `hashCode` and `equals`. 
 
