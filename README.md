@@ -133,3 +133,7 @@ The `equals`, `toString` and `hashCode` have been implicitly declared as `final`
 
 
 Next [Listing 47 ELN-Rec](https://github.com/Java-PJATK/47.ELN-Rec)
+
+---
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=gJ9DYC-jswo&ab_channel=CodingwithJohn)
