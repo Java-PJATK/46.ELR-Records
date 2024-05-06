@@ -92,9 +92,9 @@ It’s then enough to specify, in round parentheses, types and names of the (pri
 
 * Private, final fields will be declared, with names as given as parameters of the descriptor.
   
-* The canonical constructor will be created, assigning values to all fields.
+* The **canonical constructor** will be created, assigning values to all fields.
 
-* Canonical getters 8(But not setters, as objects of records are, by definition, immutable.) will be created with names as those of the fields (without the usual get prefix!).
+* **Canonical getters** 8(But not setters, as objects of records are, by definition, immutable.) will be created with names as those of the fields (without the usual get prefix!).
     
 * Default implementation of the `equals`, `hashCode` and `toString` methods will be added automatically, but if we want to customize them for some reason, we can define them ourselves.
 
